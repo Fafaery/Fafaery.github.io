@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Audio I see u</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2022-06-30T06:42:41.335Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Milky</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/post/4a17b156.html"/>
+    <id>http://example.com/post/4a17b156.html</id>
+    <published>2022-06-28T10:22:16.391Z</published>
+    <updated>2022-06-30T06:42:41.335Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="这是哪里？"><a href="#这是哪里？" class="headerlink" title="这是哪里？"></a>这是哪里？</h1><p>泥嚎，欢迎来到audio i see you</p><h1 id="关于文章"><a href="#关于文章" class="headerlink" title="关于文章"></a>关于文章</h1><p>如你所见，这个博客是我个人用来记录平时混音的方法也会记录一些网站搭建和优化的过程，你可以通过标签找到各类文章的集合<br>文章列表上方的ispeak类似于朋友圈，主要记录一些琐事和学习分轨的心得<br>混音方面打算先记录贴唱方法</p><blockquote><p>分轨还在努力学习中</p></blockquote><h1 id="关于本站"><a href="#关于本站" class="headerlink" title="关于本站"></a>关于本站</h1><p>网站为hexo静态页面博客<br>接受互换友联，如果贵站添加了本站并且支持https访问，那么欢迎在下方进行留言</p><h1 id="关于我"><a href="#关于我" class="headerlink" title="关于我"></a>关于我</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;这是哪里？&quot;&gt;&lt;a href=&quot;#这是哪里？&quot; class=&quot;headerlink&quot; title=&quot;这是哪里？&quot;&gt;&lt;/a&gt;这是哪里？&lt;/h1&gt;&lt;p&gt;泥嚎，欢迎来到audio i see you&lt;/p&gt;
+&lt;h1 id=&quot;关于文章&quot;&gt;&lt;a href=&quot;#关于文章&quot; c</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
