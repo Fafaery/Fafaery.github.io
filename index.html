@@ -24,7 +24,7 @@
     <meta property='og:url' content='https://luoxiaohei.net'>
     <meta property='og:site_name' content='milky'>
     <meta property='og:type' content='website'>
-    <meta property='og:image' content='https://sdn.geekzu.org/avatar/2fc4cf3560ff5a1cc64ea029896ab235?s=512'>
+    <meta property='og:image' content='https://s2.loli.net/2023/07/16/LfwFx5HVzU8CNDA.jpg'>
     <!-- End Opengraph -->
 
     <!-- Start Umami Analytics 
@@ -32,7 +32,24 @@
     <!-- End Umami Analytics -->
 
     <link rel="stylesheet" type="text/css" href="./style.css" />
-
+<script type="text/javascript">
+    function show_runtime() {
+        window.setTimeout("show_runtime()", 1000);
+        X = new Date("7/15/2023 21:39:45");
+        Y = new Date();
+        T = (Y.getTime() - X.getTime());
+        M = 24 * 60 * 60 * 1000;
+        a = T / M;
+        A = Math.floor(a);
+        b = (a - A) * 24;
+        B = Math.floor(b);
+        c = (b - B) * 60;
+        C = Math.floor((b - B) * 60);
+        D = Math.floor((c - C) * 60);
+        runtime_span.innerHTML = "本域名已苟延残喘: " + A + "天" + B + "小时" + C + "分" + D + "秒"
+    }
+    show_runtime();
+</script>
 </head>
 
 <body>
@@ -55,12 +72,14 @@
                     <figure class="avatar">
                         <img src="https://s2.loli.net/2023/07/16/gd9KASYB48TUsxu.jpg" srcset="https://s2.loli.net/2023/07/16/gd9KASYB48TUsxu.jpg 2x" alt="" />
                     </figure>
+
                 </header>
 
                 <section class="info">
                     <h1 class="name">罗小黑</h1>
                     <p class="bio">luoxiaohei</p>
-                   <!--  <a href="https://beian.miit.gov.cn/" rel="noopener" >闽ICP备18002751号-1</a>-->
+					
+                   <!--  <a href="https://beian.miit.gov.cn/" rel="noopener" >闽ICP备18002751号</a>-->
                 </section>
 
                 <footer class="social-links is-hidden">
@@ -93,10 +112,9 @@
 
 
                     <!-- Add more links here -->
-                    
+                   <!-- <span id="runtime_span"> -->
                 </footer>
 
-                
 
             </section>
         </div>
