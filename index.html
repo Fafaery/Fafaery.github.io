@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>罗小黑战记大电影 - The Legend of Hei</title>
+  <title>你是谁?请支持罗小黑大电影2</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
@@ -59,14 +59,30 @@
 </head>
 <body>
   <div class="container">
-    <img src="poster.jpg" alt="罗小黑战记大电影海报" class="poster">
+    <img src="poster.jpg" alt="The Legend of Hei" class="poster">
     <div class="content">
       <div class="title-cn">罗小黑战记大电影</div>
       <div class="title-en">The Legend of Hei</div>
       <div class="release-date">上映日期：7月18日</div>
       <div class="desc">
-        《罗小黑战记》是一部中国原创动画电影，讲述了猫妖小黑在现代都市与人类、异能者之间的奇幻冒险故事。影片画风精美，情感真挚，深受观众喜爱。<br>
-        让我们一起踏上治愈与冒险并存的旅程，见证小黑的成长与蜕变！
+        <script type="text/javascript">
+          function show_runtime() {
+              window.setTimeout("show_runtime()", 1000);
+              X = new Date("7/18/2025 21:39:45");
+              Y = new Date();
+              T = (Y.getTime() - X.getTime());
+              M = 24 * 60 * 60 * 1000;
+              a = T / M;
+              A = Math.floor(a);
+              b = (a - A) * 24;
+              B = Math.floor(b);
+              c = (b - B) * 60;
+              C = Math.floor((b - B) * 60);
+              D = Math.floor((c - C) * 60);
+              runtime_span.innerHTML = "距离上映还有: " + A + "天" + B + "小时" + C + "分" + D + "秒"
+          }
+          show_runtime();
+      </script>
       </div>
     </div>
   </div>
